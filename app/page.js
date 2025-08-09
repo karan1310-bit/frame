@@ -1,6 +1,8 @@
 import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Header from "@/components/Navbar";
+import OurWork from "@/components/work/Worky";
+import MainContent from "@/components/work/Worky";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
     <Header />
     <Hero />
     <About />
+    <OurWork />
+    <div className="h-screen bg-white"></div>
    </main>
   );
 }

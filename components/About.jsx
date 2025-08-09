@@ -29,7 +29,7 @@ export default function About() {
   }, []);
 
   return (
-    <section className="bg-white flex items-center font-DMsemi justify-center px-6 py-24">
+    <section className="bg-[#ffffff] flex items-center font-DMsemi justify-center px-6 py-24">
       <div className="max-w-5xl text-center">
         <h1
           ref={headingRef}
@@ -76,8 +76,8 @@ export default function About() {
           <span className="block mt-1">no cap!</span>
         </h1>
 
-        <p className="mt-12 md:mt-10 text-center font-DMregular text-base md:text-xl text-neutral-800 max-w-xs md:max-w-5xl mx-auto leading-relaxed">
-  We’re <span className="font-Epiitalic">SleekFrame</span> — a creative agency building bold brands and high-impact websites. From identity to execution, we blend design and dev to craft digital experiences that actually connect.
+        <p className="mt-12 md:mt-10 text-center font-DMregular text-base md:text-xl text-neutral-800 max-w-xs md:max-w-4xl mx-auto leading-relaxed">
+  a creative agency building bold brands and high-impact websites. From identity to execution, we blend design and dev to craft digital experiences that actually connect.
   <br />
   <span className="font-Epiitalic">
     Clean. Fast. Unforgettable.
