@@ -76,10 +76,10 @@ export default function About() {
           <span className="block mt-1">no cap!</span>
         </h1>
 
-        <p className="mt-12 md:mt-10 text-center font-DMregular text-base md:text-xl text-neutral-800 max-w-xs md:max-w-4xl mx-auto leading-relaxed">
+        <p className="mt-12 md:mt-10 text-center font-DMsemi text-base md:text-xl text-neutral-800 max-w-xs md:max-w-4xl mx-auto leading-relaxed">
   a creative agency building bold brands and high-impact websites. From identity to execution, we blend design and dev to craft digital experiences that actually connect.
   <br />
-  <span className="font-Epiitalic">
+  <span className="font-Epiitalic font-semibold">
     Clean. Fast. Unforgettable.
   </span>
 </p>
