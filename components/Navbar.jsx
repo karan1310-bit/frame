@@ -16,7 +16,7 @@ export default function Header() {
       <header className="absolute top-1/2 w-full -translate-y-1/2">
         <nav className="flex justify-between items-center py-4 md:py-6 px-6 md:px-6">
           <a href="#home">
-            <h2 className="text-base md:text-lg">SleekFrame Studio</h2>
+            <h2 className="text-base font-DMsemi md:text-lg">SleekFrame Studio</h2>
           </a>
 
           {/* Nav Links */}
@@ -24,11 +24,11 @@ export default function Header() {
 
           {/* CTA */}
           
-            <h2 className="md:hidden text-sm md:text-lg nav-hover-btn group">
+            <h2 className="md:hidden text-sm md:text-lg nav-hover-btn font-DMsemi group">
                <Effect title="Let's Talk" link="mailto:kfreelance131@gmail.com" />
             </h2>
 
-<div className="hidden md:flex h-full items-center text-base md:text-lg gap-2">
+<div className="hidden md:flex h-full font-DMsemi items-center text-base md:text-lg gap-2">
             <Effect title="Services," link="mailto:kfreelance131@gmail.com" />
             <Effect title="work," link="mailto:kfreelance131@gmail.com" />
             <Effect title="about," link="mailto:kfreelance131@gmail.com" />

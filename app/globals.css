@@ -56,3 +56,17 @@
 @theme {
   --font-Epiregular: "Epi regular", sans-serif;
 }
+
+/* Lenis base */
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
