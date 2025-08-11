@@ -30,7 +30,7 @@ export default function SplitCTA() {
                 className="relative inline-block mt-1 underline-offset-[10px] text-[clamp(1.75rem,4.5vw,3.25rem)]"
               >
                 <span className="relative">
-                  <Effect title="Get In Touch," link="mailto:kfreelance131@gmail.com" />
+                  <Effect title="Get In Touch," link="mailto:contact.sleekframe@gmail.com?subject=Quick%2010-min%20call%20about%20my%20project&body=Hi%20SleekFrame%2C%20I%20just%20saw%20your%20work%20and%20loved%20it.%20I%27d%20love%20to%20book%20a%2010-minute%20call%20to%20discuss%20my%20project.%20Thanks!" />
                   {/* custom underline (thick) */}
                   <span
                     aria-hidden

@@ -4,6 +4,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { DrawSVGPlugin } from 'gsap/DrawSVGPlugin';
+import Link from 'next/link';
 
 gsap.registerPlugin(ScrollTrigger, DrawSVGPlugin);
 
@@ -33,7 +34,7 @@ const items = [
   {
     id: '03',
     title: 'Web development',
-    tags: ['Webflow', 'Frontend development'],
+    tags: ['Webflow', 'Frontend development', 'CMS'],
     openBgClass: 'bg-[#DEE9CF]',
     hoverBgClass:
       'hover:bg-[#DEE9CF] focus:bg-[#DEE9CF] focus-within:bg-[#DEE9CF] active:bg-[#DEE9CF]',
@@ -43,8 +44,8 @@ const items = [
   },
   {
     id: '04',
-    title: 'Branding',
-    tags: ['Logo', 'Packaging', 'Naming', 'Corporate identity'],
+    title: 'E commerce',
+    tags: ['Full stack Development', 'Wordpress', 'Shopify'],
     openBgClass: 'bg-[#FFF4D6]',
     hoverBgClass:
       'hover:bg-[#FFF4D6] focus:bg-[#FFF4D6] focus-within:bg-[#FFF4D6] active:bg-[#FFF4D6]',
@@ -54,8 +55,8 @@ const items = [
   },
   {
     id: '05',
-    title: 'Mobile apps',
-    tags: ['iOS', 'Android', 'Cross-platform'],
+    title: 'Animations',
+    tags: ['Gsap', 'Framer Motion', '3D'],
     openBgClass: 'bg-[#FCE7F3]',
     hoverBgClass:
       'hover:bg-[#FCE7F3] focus:bg-[#FCE7F3] focus-within:bg-[#FCE7F3] active:bg-[#FCE7F3]',
@@ -152,7 +153,7 @@ export default function Services() {
 
   return (
     <section
-      id="expertise_section"
+      id="services"
       aria-labelledby="expertise_heading"
       className="w-full bg-[#FFFFFF] py-4 md:py-20 font-DMregular"
     >
@@ -190,8 +191,7 @@ export default function Services() {
             </p>
 
             <h2 className="mt-8 mb-4 max-w-2xs md:max-w-3xl mx-auto text-base font-DMsemi sm:text-xl lg:text-xl leading-tight tracking-tight text-slate-900">
-              Our vast experience and range of services help solve complex business
-              problems with a personalized approach to each task
+              We deliver tailored solutions to tough problems with a full range of professional services: strategy, design, development, and ongoing optimization.
             </h2>
           </div>
 
@@ -312,13 +312,13 @@ export default function Services() {
                             'group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto',
                             ctaState,
                           ].join(' ')}
-                        >
+                        ><Link href="mailto:contact.sleekframe@gmail.com?subject=Quick%2010-min%20call%20about%20my%20project&body=Hi%20SleekFrame%2C%20I%20just%20saw%20your%20work%20and%20loved%20it.%20I%27d%20love%20to%20book%20a%2010-minute%20call%20to%20discuss%20my%20project.%20Thanks!">
                           <button
                             type="button"
                             className="rounded-full border border-slate-900 px-5 py-2 text-sm sm:text-base font-medium text-slate-900 transition-colors hover:bg-slate-900 hover:text-white"
                           >
                             Start a project
-                          </button>
+                          </button></Link>
                         </div>
                       </div>
                     </div>

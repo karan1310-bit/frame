@@ -29,7 +29,7 @@ export default function About() {
   }, []);
 
   return (
-    <section className="bg-[#ffffff] flex items-center font-DMsemi justify-center px-6 py-24">
+    <section id='about' className="bg-[#ffffff] flex items-center font-DMsemi justify-center px-6 py-24">
       <div className="max-w-5xl text-center">
         <h1
           ref={headingRef}

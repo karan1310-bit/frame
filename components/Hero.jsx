@@ -21,7 +21,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative w-full min-h-screen bg-[#ffffff] text-black flex flex-col justify-center items-center px-6 py-12">
+    <section id='home' className="relative w-full min-h-screen bg-[#ffffff] text-black flex flex-col justify-center items-center px-6 py-12">
       {/* Main Title */}
       <h1 className="text-[17vw] md:text-[10vw] font-Epiitalic mt-12 text-center leading-none tracking-tight">
         SleekFrame{' '}

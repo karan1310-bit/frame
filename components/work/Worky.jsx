@@ -73,6 +73,7 @@ export default function OurWork() {
 
   return (
     <section
+      id='work'
       ref={sectionRef}
       className="relative h-screen flex flex-col items-center font-DMregular overflow-hidden justify-center px-6 py-12"
     >
@@ -102,10 +103,10 @@ export default function OurWork() {
           </div>
           <div className="flex flex-col justify-between items-start h-full w-1/2 pl-2 md:pl-4 py-4 md:py-0">
             <div className="text-lg md:text-5xl font-DMsemi text-[#C56386]">
-              Pink Gellac
+              Disco Den
             </div>
             <div className="mt-2">
-              <span className="text-sm md:text-xl text-white bg-[#C56386] rounded-full px-2 py-1 md:px-4 md:py-2">Shopify Plus</span>
+              <span className="text-sm md:text-xl text-white bg-[#C56386] rounded-full px-2 py-1 md:px-4 md:py-2">Animations</span>
             </div>
           </div>
         </article>
@@ -117,7 +118,7 @@ export default function OurWork() {
         >
           <div className="flex-shrink-0 overflow-hidden w-1/2">
             <Image
-              src="/images/5.jpg"
+              src="/images/3.jpg"
               alt="Pink Gellac"
               width={150}
               height={200}
@@ -126,10 +127,10 @@ export default function OurWork() {
           </div>
           <div className="flex flex-col justify-between items-start h-full w-1/2 pl-2 md:pl-4 py-4 md:py-0">
             <div className="text-lg md:text-5xl font-DMsemi text-[#ADB8CF]">
-              Obey
+              P Motosport
             </div>
             <div className="mt-2">
-              <span className="text-sm md:text-xl text-red-500 bg-[#ADB8CF] rounded-full px-2 py-1 md:px-4 md:py-2">Shopify Plus</span>
+              <span className="text-sm md:text-xl text-red-500 bg-[#ADB8CF] rounded-full px-2 py-1 md:px-4 md:py-2">Next.js + CMS</span>
             </div>
           </div>
         </article>
@@ -141,7 +142,7 @@ export default function OurWork() {
         >
           <div className="flex-shrink-0 overflow-hidden w-1/2">
             <Image
-              src="/logos/1.png"
+              src="/images/S1.png"
               alt="Filling Pieces"
               width={150}
               height={200}
@@ -150,10 +151,10 @@ export default function OurWork() {
           </div>
           <div className="flex flex-col justify-between items-start h-full w-1/2 pl-2 md:pl-4 py-4 md:py-0">
             <div className="text-lg md:text-5xl font-DMsemi text-[#745338]">
-              Filling Pieces
+              K Casa
             </div>
             <div className="mt-2">
-              <span className="text-sm md:text-xl text-white bg-[#745338] rounded-full px-2 py-1 md:px-4 md:py-2">Shopify Plus</span>
+              <span className="text-sm md:text-xl text-white bg-[#745338] rounded-full px-2 py-1 md:px-4 md:py-2">Frontend + Design</span>
             </div>
           </div>
         </article>
