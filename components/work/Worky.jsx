@@ -94,7 +94,7 @@ export default function OurWork() {
         >
           <div className="flex-shrink-0 overflow-hidden w-1/2">
             <Image
-              src="/images/6.jpg"
+              src="/images/1.jpg"
               alt="Pink Gellac"
               width={150}
               height={200}
