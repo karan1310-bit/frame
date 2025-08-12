@@ -154,7 +154,7 @@ export default function OurWork() {
               K Casa
             </div>
             <div className="mt-2">
-              <span className="text-sm md:text-xl text-white bg-[#745338] rounded-full px-2 py-1 md:px-4 md:py-2">Frontend + Design</span>
+              <span className="text-sm md:text-xl text-white bg-[#745338] rounded-full px-2 py-1 md:px-4 md:py-2">Frontend</span>
             </div>
           </div>
         </article>

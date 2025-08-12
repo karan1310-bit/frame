@@ -56,8 +56,8 @@ export default function About() {
 
           , <span className="">internet kids</span> <br />
           team <span className="">with good taste</span>{' '} and
-          <span className="relative inline-block italic font-Epiitalic">
-            design delulu.
+          <span className="relative inline-block italic font-Epiitalic ml-3 sm:ml-0">
+             design delulu.
             <svg
               className="absolute -bottom-2 left-0 w-full h-[20px] pointer-events-none"
               viewBox="0 0 300 20"

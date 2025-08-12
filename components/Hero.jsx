@@ -49,7 +49,7 @@ export default function Hero() {
       <p className="mt-12 md:mt-10 text-center font-DMsemi text-base md:text-xl text-neutral-800 max-w-xs md:max-w-2xl">
         We don’t do average. We do brands with edge — visuals that slap, words that resonate, and digital that delivers.
         <br />
-        <span className="font-Epiitalic font-bold">Built to stand out,</span> not blend in.
+        <span className="font-Epiitalic font-bold">Built to stand out,</span> not to blend in.
       </p>
     </section>
   );
