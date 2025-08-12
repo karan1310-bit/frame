@@ -114,7 +114,7 @@ export default function ContactFooter() {
 
                   <ul className="md:space-y-1 font-DMregular">
                     <li>
-                      <Effect title="+1 (778) 961-0904" link="mailto:contact.sleekframe@gmail.com" />
+                      <Effect title="+1(778)961-0904" link="mailto:contact.sleekframe@gmail.com" />
                     </li>
                     <li>
                       <Effect title="Surrey BC" link="mailto:contact.sleekframe@gmail.com" />

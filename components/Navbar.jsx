@@ -72,8 +72,7 @@ export default function Header() {
 
           {/* Mobile CTA (kept exactly like your original) */}
           <h2 className="md:hidden text-sm md:text-lg nav-hover-btn font-DMregular group">
-            <Effect title="Book a Call"  href="mailto:contact.sleekframe@gmail.com?subject=Book%20a%2015-min%20call%20with%20SleekFrame&body=Hi%20SleekFrame%2C%0A%0AI%27d%20like%20to%20book%20a%2015-min%20call%20about%20my%20project.%20Here%20are%20a%20few%20details%3A%0A%0AName%3A%0ACompany%3A%0AProject%20type%3A%20Website%20%7C%20Brand%20%7C%20App%0ABudget%20range%3A%0ATimeline%3A%0ALinks%2FReferences%3A%0A%0AThanks%21"
-                   />
+            <Effect title="Book a Call" link="mailto:contact.sleekframe@gmail.com?subject=Quick%2010-min%20call%20about%20my%20project&body=Hi%20SleekFrame%2C%20I%20just%20saw%20your%20work%20and%20loved%20it.%20I%27d%20love%20to%20book%20a%2010-minute%20call%20to%20discuss%20my%20project.%20Thanks!" />
           </h2>
 
           {/* Desktop nav (kept exactly like your original) */}
